@@ -177,6 +177,40 @@
             </div>
        </div>
        <div class="row row-content">
+           <div class="col-12 col-12-sm">
+               <!-- do again using accordion -->
+               <!-- card 1 -->
+                <div id="accordion" role="tablist"  aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="peterhead">
+                            <h3 class="mb-0">
+                                <!-- data-parent:  If a selector is provided, then all collapsible elements under the specified parent will be closed when this collapsible item is shown. (similar to traditional accordion behavior - this is dependent on the panel class) -->
+                                <a data-toggle="collapse" data-parent="#accordion" href="#peter2"  aria-expanded="true" aria-controls="peter2"> Peter Pan <small>Chief Epicurious Officer</small></a>
+                            </h3>
+                        </div>
+                        <div class="collapse show" id="peter2" role="tabpanel" aria-labelledby="peter2">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                            </div>
+                        </div>
+                    </div>
+                <!-- card 2 -->
+                    <div class="card">
+                        <div class="card-header" role="tab" id="dannyhead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#danny2" aria-expanded="true" aria-controls="danny2"> Dhanasekaran Witherspoon <small>Chief Food Officer</small></a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="danny2" role="tabpanel" aria-labelledby="danny2">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+       <div class="row row-content">
            <div class="col-12 col-sm-9">
                <h2>Facts &amp; Figures</h2>
                <div class="table-responsive">
